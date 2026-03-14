@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/bot" }],
+  "functions": { "api/bot.py": { "runtime": "python@3.9" } }
+}
